@@ -3,6 +3,7 @@ import json
 import time
 import logging
 
+logging.basicConfig(level=logging.INFO)
 interval = 5 * 60
 
 
