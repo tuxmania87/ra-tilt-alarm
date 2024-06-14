@@ -52,7 +52,7 @@ with open("config.json", "r") as f:
     config = json.load(f)
 
 logging.info("starting")
-send_to_webhook(config["webhook-url"], "Starting Tilt Monitor")
+# send_to_webhook(config["webhook-url"], "Starting Tilt Monitor")
 
 
 while True:
